@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: black;
+    height: 100vh;
+
+}
+body::before{
+    width: 100%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("./photo.jpg");
+    background-position: center;
+    opacity: 0.5;
+    height: 160vh;
+}
+.main-container{
+    height: 100vh;
+}
+nav{
+    padding-top: 40px;
+    padding-left: 90px;
+    width: 100%;
+    height: 100px;
+    opacity: 1;
+}
+nav>a{
+    text-decoration: none;
+}
+nav>a>img{
+    width: 160px;
+    opacity: 1;
+}
+.container1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: rgba(0,0,0,0.75);
+    transform: translate(-50%, -50%);
+    padding-top: 48px;
+    padding-left: 60px;
+    padding-bottom: 48px;
+    width: 430px;
+    border-radius: 5px;
+    margin-top: 88px;
+}
+h2{
+    font-size: 2.5em;
+    color: white;
+}
+form{
+    margin: 25px 0 45px;
+}
+#email,#password{
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 303px;
+    background-color: rgba(0,0,0,0.75);
+    height: 55px;
+}
+button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 303px;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+#btn{
+    background: #343436;
+    color: white;
+    cursor: pointer;
+}
+.span1{
+    font-size: large;
+    color: gray;
+    padding-left: 42%;
+}
+#a{
+    padding-left: 31%;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+#a:hover{
+    text-decoration: underline;
+}
+#checkbox{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 58px;
+    accent-color: white;
+    cursor: pointer;
+}
+label{
+    color: rgb(255, 255, 255);
+    padding: 24px;
+}
+.span2{
+    color: rgba(255, 255, 255, 0.7);
+}
+#b{
+    padding: 9px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+small{
+    color: rgba(255, 255, 255, 0.7);
+}
+.container2{
+    position: absolute;
+    bottom: -64%; 
+    width: 100%;
+    height: 300px;
+    background: rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 80%;
+    padding-left: 50px;
+    height: 95%;
+    gap: 16px;
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 10px;
+}
+footer>.div1{
+    display: flex;
+    color: white;
+    gap: 5px;
+}
+footer>.div1>a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+footer>.div1>a:hover{
+    text-decoration: underline;
+}
+footer>.div2{
+    display: flex;
+    flex-direction: row;
+    width: 88%;
+    height: 70px;
+    gap: 18%;
+    color: white;
+    cursor: pointer;
+}
+.div2>div{
+    height: 20%;
+}
+div>ul,li,a{
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+.div2>div>ul>li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer>.div3{
+    border: 1px rgba(255, 255, 255, 0.7) solid;
+    width: 105px;
+    border-radius: 3px;
+    height: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    background: black;
+}
+.div3>div{
+    padding-left: 6px;
+}
+.div3>div,i,select{
+    font-size: 0.8rem;
+    color: white;
+    background-color: black;
+    border: none;
+}

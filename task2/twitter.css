@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.main-container{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container>.container{
+    width: 40%;
+    height: 90%;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.main-container>.container>.sub-container{
+    width: 80%;
+    height: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+nav>img{
+    width: 30px;
+    height: 30px;
+}
+.sub-container>h1{
+    color: rgb(15, 20, 25);
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 36px;
+}
+.sub-container>.div1{
+    width: 65%;
+    height: 55%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+form>.form-action>button{
+    height: 45px;
+    border-radius: 24px;
+    padding: 10px 24px 10px 24px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 300px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    border: 1px gray solid;
+    margin-top: 10px;
+}
+form>.form-action>.btn1:hover{
+background: #d2e3fc;
+}
+form>.form-action>.btn1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form>.form-action>.btn1>img{
+    height: 30px;
+}
+form>.form-action>.btn2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+form>.form-action>.btn2>img{
+    height: 20px;
+}
+form>.form-action>.btn2:hover{
+    border-color: rgb(207, 217, 222);
+    background-color: rgb(207, 217, 222);
+}
+i{
+    padding-right: 5px;
+    height: 10px;
+}
+form>button{
+    height: 40px;
+    border-radius: 24px;
+    padding: 12px 24px 12px 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    width: 300px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+form>.form-action>button:hover{
+    border-color: rgba(0, 0, 0, 0);
+}
+form>.form-action{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form>#p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+form>#p>.p{
+    font-size: 1.5rem;
+}
+form>#p::before{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0.2px;
+    width: 50px;
+    background-color: #cfd9de;
+    --tw-content: '';
+    content: var(--tw-content);
+    flex-grow: 1;
+}
+form>#p::after{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0.2px;
+    width: 50px;
+    background-color: #cfd9de;
+    --tw-content: '';
+    content: var(--tw-content);
+    flex-grow: 1;
+}
+form>.p1{
+    color: rgb(83, 100, 113);
+    font-family:TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px
+}
+.sub-container>p{
+    color: rgb(83, 100, 113);
+    font-family:TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 20px
+}
+a{
+    text-decoration: none;
+    color: rgb(29, 155, 240);
+}
+a:hover{
+    text-decoration: underline;
+}
